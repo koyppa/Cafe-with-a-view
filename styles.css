@@ -1,0 +1,92 @@
+ul,
+li,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.description {
+    max-width: 960px;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    color: #45607d;
+}
+
+.footer {
+    height: 5vh;
+    border-top: solid thin #45607d;
+    background-color: #7290b1;
+    text-align: right;
+    font-style: italic;
+}
+
+.footer p {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.menu-item .ruptureStock {
+    justify-content: center;
+}
+
+.menu-item__image {
+    max-width: 300px;
+}
+
+.shopping-cart {
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+
+.contact {
+    margin-bottom: 30px;
+    line-height: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.horaires {
+    margin-top: -10px;
+    line-height: 20px;
+}
+
+button {
+    cursor: pointer;
+    background: #2c3e50;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 10px 8px;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    border: none;
+}
+
+button:hover {
+    background-color: #45607d;
+    box-shadow: 0 4px 10px #2c3e50;
+}
